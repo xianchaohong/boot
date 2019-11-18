@@ -16,5 +16,4 @@ public class RsInventoryStatus {
         private Byte status;
         private String user_name;
         private Integer add_time;
-
 }
