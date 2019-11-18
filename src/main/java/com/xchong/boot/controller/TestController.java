@@ -21,6 +21,7 @@ public class TestController {
 
     @GetMapping("/findAll")
     public List<RsInventoryStatus> findAllStudent() {
-        return rsInventoryStatusMapper.findAll();
+        List<RsInventoryStatus> list = rsInventoryStatusMapper.findAll();
+        return list;
     }
 }

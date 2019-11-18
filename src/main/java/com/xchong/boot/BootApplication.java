@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * boot 项目
  */
 @SpringBootApplication
+@MapperScan("com.xchong.boot.mapper")
 public class BootApplication {
 
     public static void main(String[] args) {
